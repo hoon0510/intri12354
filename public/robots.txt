@@ -1,0 +1,14 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://intrixlab.xyz/sitemap.xml
+
+# RSS Feed
+RSS: https://intrixlab.xyz/api/rss.xml
+
+# Disallow
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/ 
